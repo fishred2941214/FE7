@@ -1,0 +1,534 @@
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* fzu.css (25, 8) */
+#logo {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#header {
+    display: flex;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+/* fzu.css (1, 1) */
+/* fzu.css (1, 1) */
+#nav {
+    float: right;
+    position: absolute;
+    left: 1000px;
+    display: flex;
+    font-size: 18px;
+    color: #0a8af7;
+}
+
+li {
+    list-style-type: none;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+
+/* 福大助手.html (1, 1) */
+#head {
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+/* 福大助手.html (1, 1) */
+#headerlogo {
+    width: 170px;
+}
+
+
+li:hover{
+    list-style-type: none;
+    border-bottom: 1px solid #0a8af7;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+#alldownload{
+    background-image: url("download.png");
+    width: 200px;
+    height: 62px;
+}
+
+#alldownload:hover{
+    background-image: url("download1.png")
+}
+
+#download {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#content1 {
+    top: 150px;
+    position: absolute;
+}
+
+/* fzu.css (2, 12) */
+#section1 {
+    background-image: url("beijing4.png"); 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-size:100% 100%;  
+}
+
+/* fzu.css (18, 12) */
+#app-name {
+    position: relative;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 0px;
+    color: #0a8af7;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#app {
+    display: flex;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+/* fzu.css (1, 1) */
+#right1 {
+    padding-top: 50px;
+    padding-left: 250px;
+    animation: approach2 0.5s;
+    position: absolute;
+    left: 650px;
+    width: 400px;
+}
+
+
+#left1 {
+    animation: approach1 0.5s;
+    position: absolute;
+    left: 300px;
+}
+
+#introduction {
+    padding-top: 100px;
+    color:grey;
+}
+
+#download1 {
+    display: flex;
+    padding-top: 100px;
+}
+
+/* fzu.css (208, 5) */
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* fzu.css (213, 5) */
+h4 {
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* fzu.css (153, 12) */
+#content2 {
+    display: flex;
+    font-family: 幼圆;
+    padding-left: 200px;
+    top: 70px;
+    padding-top: 100px;
+}
+
+/* fzu.css (163, 9) */
+#item1 {
+    width: 350px;
+    border: 1px solid #0a8af7;
+    height: 300px;
+    top: 900px;
+    position: absolute;
+}
+
+/* fzu.css (195, 9) */
+#item2 {
+    width: 350px;
+    border: 1px solid #0a8af7;
+    top: 900px;
+    position: absolute;
+    left: 600px;
+    height: 300px;
+}
+
+/* fzu.css (225, 9) */
+#item3 {
+    width: 350px;
+    border: 1px solid #0a8af7;
+    top: 900px;
+    position: absolute;
+    height: 300px;
+    left: 1000px;
+}
+
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#content2{
+    display: flex;
+    font-family: 幼圆;
+    padding-left: 200px;
+    top: 70px;
+}
+
+
+#item1:hover {
+    width: 350px;
+    border: 1px solid #0a8af7;
+    height: 300px;
+    top: 850px;
+    position: absolute;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#item1logo {
+    width: 70px;
+    top: 50px;
+    left: 140px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#item1_introduction {
+    position: relative;
+    top: 80px;
+}
+
+
+#item2:hover {
+    width: 350px;
+    border: 1px solid #0a8af7;
+    top: 850px;
+    position: absolute;
+    left: 600px;
+    height: 300px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#item2logo {
+    width: 70px;
+    top: 50px;
+    left: 140px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#item2_introduction {
+    position: relative;
+    top: 80px;
+}
+
+
+#item3:hover {
+    width: 350px;
+    border: 1px solid #0a8af7;
+    top: 850px;
+    position: absolute;
+    height: 300px;
+    left: 1000px;
+}
+
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#item3logo {
+    width: 70px;
+    top: 50px;
+    left: 140px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#item3_introduction {
+    position: relative;
+    top: 80px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#section2 {
+    width: 100%;
+    height: 500px;
+    background-image: url("beijing7.png");
+}
+
+
+
+
+h2 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+#juxing {
+    position: absolute;
+    left: 200px;
+    top: 850px;
+    z-index: 1;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+img {
+    z-index: 100;
+    position: relative;
+}
+
+/* fzu.css (117, 19) */
+#androiddownload {
+    padding-left: 150px;
+}
+
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#section3 {
+    width: 100%;
+    height: 500px;
+    background-image: url("beijing5.png");
+}
+
+
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+
+#separate {
+    width: 1200px;
+    left: 200px;
+}
+
+@keyframes approach1
+{
+    0% {left:50px;}
+    25% {left:100px;}
+    50% {left: 200px;}
+    75% {left: 250px;}
+    100% {left:300px;}
+}
+
+@keyframes approach2
+{
+    0% {left:850px;}
+    25% {left:800px;}
+    50% {left:750px;}
+    75% {left: 700px;}
+    100% {left: 650px;}
+}
+
+
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#focuscircle1 {
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#focuscircle2
+{
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+#focuscircle3
+{
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+#focuscircle4
+{
+    background-color: grey;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#focus {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+#homepage {
+    position: absolute;
+    z-index: 100;
+}
+
+#schedule {
+    position: absolute;
+    z-index: -1;
+    animation: switch 4s;
+}
+
+
+/* fzu.css (412, 12) */
+#slideshow {
+    position: relative;
+    height: 600px;
+    width: 600px;
+}
+
+/* fzu.css (413, 16) */
+#slideshow div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 8;
+    opacity: 0;
+    height: 600px;
+    overflow: hidden;
+}
+
+/* fzu.css (430, 12) */
+#slideshow {
+    position: relative;
+    height: 600px;
+    width: 425px;
+    margin: 0 auto 15px;
+}
+
+/* fzu.css (431, 16) */
+#slideshow div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 8;
+    opacity: 0;
+    height: 600px;
+    overflow: hidden;
+}
+
+#slideshow div.current{ 
+    z-index:10;
+}
+
+#slideshow div.prev{
+    z-index:9;
+}
+
+#slideshow div img{
+    display:block;border:0;margin-bottom:10px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#bird1 {
+    position: absolute;
+    top: 1520px;
+    left: 400px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#bird2 {
+    position: absolute;
+    top: 1520px;
+    left: 1130px;
+}
+
+
+/* fzu.css (1, 1) */
+#content3 {
+    padding: 0;
+    margin: 0;
+    font-family: 幼圆;
+    text-align: center;
+    position: absolute;
+    left: 400px;
+    width: 800px;
+}
+
+/* fzu.css (1, 1) */
+#download {
+    display: flex;
+    position: absolute;
+    left: 135px;
+    padding: 0;
+    top: 350px;
+}
+
+/* fzu.css (325, 5) */
+h5 {
+    font-size: 50px;
+    color: #0a8af7;
+    position: absolute;
+}
+
+/* fzu.css (331, 5) */
+h6 {
+    font-size: 35px;
+    color: grey;
+    padding: 0;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#plane {
+    position: absolute;
+    width: 500px;
+    left: 1200px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#circle1 {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#circle3 {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#circle2 {
+    top: 180px;
+    left: 700px;
+}
+
+/* http://127.0.0.1:5500/FE7/福大助手.html */
+#circle5 {
+    position: absolute;
+    top: 600px;
+    left: 220px;
+}
+
+#circle4 {
+    position: absolute;
+    left: 650px;
+    top: 450px;
+}

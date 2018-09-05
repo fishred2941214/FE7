@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>West2Online 2017 福大助手</title>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"> </script>
+    
+    <link rel="stylesheet" href="fzu.css">
+  </head>
+  <body>
+      <div id = "main">
+        <div id = "section1">
+          <img id = "circle1" src = "椭圆1.png">
+          <img id = "circle2" src = "椭圆2.png">
+          <img id = "circle3" src = "椭圆3.png">
+          <img id = "circle4" src = "椭圆4.png">
+          <img id = "circle5" src = "椭圆5.png">
+          <img id = "plane" src = "225.png"
+          <header id = "header">
+            <div id = "head">
+              <img id = "headerlogo" src = "headerlogo.png">
+            </div>
+            <ul id = "nav">
+              <li data-to = "section5">下载</li>
+              <li data-to = "content_2">了解更多</li>
+            </ul>
+          </header>
+          <div id = "content1">
+          <div id = "left1">
+            <div id="slideshow">
+              <div class="current">
+                  <a href="#"><img src="首页.png" /></a>
+                  
+              </div>
+              <div>
+                  <a href="#"><img src="课程表.png" /></a>
+                  
+              </div>
+              <div>
+                  <a href="#"><img src="课程详情.png"  /></a>
+                  
+              </div>
+              <div>
+                  <a href="#"><img src="考试.png" /></a>
+                  
+              </div>
+              <div>
+                  <a href="#"><img src="易班.png"  /></a>
+                  
+              </div>
+          </div>
+
+          </div>
+          <div id = "right1">
+          <div id = "app">
+          <img id = "logo" src="logo.png">
+          <div id = "app-name">
+            福大助手
+            <h2>综合性最强的福大校内APP</h2>
+          </div>
+          </div>
+          <div id = "introduction">
+            <h3>从课表、成绩、考场，<br>
+              到空教室查询、图书馆、易班、教务处，<br>
+              我们从未停止过探索你的需求<br>
+              </h3>
+          </div>
+          <div id = "download1">
+            <a id = "alldownload" href = "#section5">
+            </a>
+          </div>
+          </div>
+          </div>
+        </div>
+        <div id = "section2">
+          <div id = "content2">
+            <div id = "item1">
+               <img id = "item1logo" src = "日历.png">
+               <div id = "item1_introduction">
+                 <h1>课表</h1>
+                 <h4>简洁优雅的课程模块界面，灵活便利的切换方式<br>
+                  一键获取任课老师信息,轻松应对你的课业</h4>
+               </div>
+            </div>
+            <div id = "item2">
+                <img id = "item2logo" src = "学士帽.png">
+                <div id = "item2_introduction">
+                    <h1>教务</h1>
+                    <h4>实时推送教务通知，同步更新考场信息</h4>
+                </div>
+            </div>
+            <div id = "item3">
+                <img id = "item3logo" src = "设置.png">
+                <div id = "item3_introduction">
+                    <h1>易班</h1>
+                    <h4>一体化覆盖“福大易班”所有功能，<br>
+                      告别频繁的应用崩溃</h4>
+                </div>
+
+            </div>
+          </div>
+        </div>
+        <div id = "section3" name = ""section5>
+          <img id = "bird1" src = "bird.png">
+          <img id = "bird2" src = "bird2.png">
+          <img id = "separate" src = "分割线1.png">
+          <div id = "content3">
+            <h5>福大助手·带来不一样的大学生活</h5>
+            <h6>可在IOS和安卓系统上使用</h6>
+            <div id = "download">
+              <a  id = "iosdownload" href = "#">
+                <img src = "ios下载3.png">
+              </a>
+              <a id = "androiddownload" href = "#">
+                <img src = "安卓下载.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <script>
+          $('#nav').on('click','li',function(e){
+              var target = e.target;
+              var id = $(target).data("to");
+              $('html,body').animate({scrollTop:$('#'+id).offset().top}, 800);
+          });
+          function slideSwitch() {
+            var $current = $("#slideshow div.current");
+            if ( $current.length == 0 ) $current = $("#slideshow div:last");
+            var $next =  $current.next().length ? $current.next() : $("#slideshow div:first");
+            $current.addClass('prev');
+            $next.css({opacity: 0.0}).addClass("current").animate({opacity: 1.0}, 1000, function() {
+                $current.removeClass("current prev");
+              });
+          }
+          $(function() {
+            $("#slideshow span").css("opacity","0.7");
+            $(".current").css("opacity","1.0");
+            // 设定时间为3秒(1000=1秒)
+              setInterval( "slideSwitch()", 3000 ); 
+          });
+      </script>
+  
+  </body>
+</html>
